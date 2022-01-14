@@ -1,0 +1,175 @@
+	Exercice 5
+
+Algorithme Chercher 
+ Var
+ tab(1;20): tableau de type chaine de caractère;
+ trouver : boolein
+ nom : chaine de caractère
+Début
+  Afficher "Veuillez entrer un nom" ;
+  Saisir nom ;
+  trouver <-- 0
+  Pour i --> 1 à 20 à pas de 1 faire
+  si tab[i]=nom alors :
+  trouver <--1;
+  Fin si
+  Fin pour
+  Si trouver=1 alors
+  Afficher "Le nom a bien éte trouvé ";
+  Fin si
+Fin
+
+	Exercice 14
+
+Algorithme Maximum 
+ Var
+ tab(1;10): tableau de type reel;
+ i : entier
+ min: reel
+Début
+ i<--1
+ min<--tab[i]
+ Pour i --> 1 à 10 à pas de 1 faire
+ si tab[i]< min alors min<--tab[i]
+ Fin si
+ Fin pour
+ Afficher "Le minimum est";min;
+Fin	
+
+	Exercice 3
+
+Algorithme Somme
+ Var
+ tab(1;10): tableau de type reel;
+ i, somme : reel
+Début
+ somme<--0 ;
+ Pour i --> 1 à 10 à pas de 1 faire
+ somme <-- somme + tab[i]
+ Fin pour
+ Afficher somme
+Fin	
+
+
+	Exercice 
+
+Algorithme Parcours
+ Var
+ note(1;10): tableau de type reel;
+ i : reel
+Début
+ Pour i --> 1 à 10 à pas de 1 faire ;
+ Afficher "le contenu de la case" i, "est", note[i] ;
+ Fin pour
+ Fin	
+
+
+	Exercice 
+
+Algorithme Remplir tableau
+ Var
+ tab(1;8): tableau de type entier;
+ i ,valeur : entiers
+Début
+ Pour i --> 1 à 8 à pas de 1 faire :
+ Afficher "Veuillez saisir le contenu de la case", i ;
+ Saisir valeur ;
+ Fin pour
+Fin	
+
+	Exercice 8
+Algorithme Message
+ Var
+ nombre: entiers;
+Debut
+ Afficher "Vous devez entrer trois nombres"
+ Afficher "Saisir nombre 1"
+Fin
+
+
+	Exercice 12
+Debut
+ Afficher "Aimez vous l'informatique" ; 
+ Saisir reponse ;
+ Tant que reponse <>"oui" ou reponse <> "non" faire
+ Afficher "Aimez vous l'informatique" ;
+ Fin tant que
+Fin
+	Exercice 13
+Var
+ Chaine de caractere
+Debut
+ Repeter 
+ Afficher "Aimez vous l'informatique" ;
+ Afficher "Réponse possible (oui ou non) ;
+ Saisir reponse ;
+ jusqu'à reponse = "oui" ou reponse= "non" ;
+Fin
+
+	Exercice 5
+
+Algorithme message ;
+Var
+ Couleur : Chaine de caractere
+Debut 
+ Afficher "Veuillez entrer une couleur" ;
+ Saisir couleur ;
+ Si couelur = "rouge" alors ;
+ Afficher "S'arrêter" ;
+ Sinon si couleur = "orange" alors ;
+ Afficher "Ralentir"
+ Sinon si couleur = "vert" alors ;
+ Afficher "Passer"
+ Fin si 
+Fin
+
+
+
+	Exercice 6
+
+Algorithme Action ;
+Var
+ Couleur : Chaine de caractere
+Debut 
+ Afficher "Veuillez entrer une couleur" ;
+ Afficher "Les couleurs possibles sont" ;
+ Afficher "Rouge" ;
+ Afficher "Orange" ;
+ Afficher "Vert" ;
+ Saisir couleur ;
+ Suivant couleur;
+ "rouge" : Afficher "S'arrêter" ;
+ "orange": Afficher "Ralentir" ;
+ "vert" : Afficher "Passer" ;
+ Sinon Afficher "Incorrecte" ; 
+ Fin suivant
+Fin
+
+	Exercice
+
+Algorithme resolution equation 
+ Var 
+ a,x,b : reels ;
+Debut
+ Afficher "Tapez lenombre a" ; 
+ Saisir a ;
+ Afficher "Tapez lenombre b" ; 
+ Saisir a ;
+ Si a <> 0 alors ;
+ x <-- -b/a 
+ Afficher "La solution est : " x ;
+ Sinon
+ Afficher " cette equation n'admet pas de solution " ;
+ Fin si
+Fin
+
+
+
+
+
+ 
+
+
+
+
+
